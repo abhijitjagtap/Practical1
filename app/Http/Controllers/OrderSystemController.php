@@ -62,7 +62,7 @@ class OrderSystemController extends Controller
 
         $data['rowid'] = $request->row;
         $data['colid'] = $request->col;
-        // dd($data);
+      
         return view('create_item')->with(compact('data'))->render();
     }
 
