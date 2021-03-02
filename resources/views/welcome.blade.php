@@ -48,6 +48,8 @@
                         $col_count = $data['col'];
                         if (!empty($data['id'])) {
                             $id = $data['id'];
+                        }else{
+                             $id=0;
                         }
                         ?>
                         <tbody>

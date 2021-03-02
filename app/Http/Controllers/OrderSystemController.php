@@ -44,7 +44,7 @@ class OrderSystemController extends Controller
         } else {
             $data['item_details'] = [];
         }
-
+      
         return view('welcome', compact('data'));
     }
 
@@ -62,7 +62,7 @@ class OrderSystemController extends Controller
 
         $data['rowid'] = $request->row;
         $data['colid'] = $request->col;
-      
+
         return view('create_item')->with(compact('data'))->render();
     }
 
