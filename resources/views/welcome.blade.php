@@ -62,7 +62,7 @@
 
                                         @foreach($val['item'] as $k=>$v)
                                         @if($val['rowid']==$i && $val['rowid']==$i && $v['col'] == $j)
-                                        <span>{{$v['item_name']}}</span>
+                                        <span >{{$v['item_name']}}</span>
                                         @endif
                                         @endforeach
 
